@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Service Packs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+</head>
+
+<body>
+  <header class="video-header">
+    <video autoplay muted loop class="background-video">
+      <source src="1D9oPojl48JAouCZ.mp4" type="video/mp4">
+    </video>
+    <div class="gradient-overay"></div>
+    <div class="header-content">
+      <h1>Welcome to Our Site</h1>
+    </div>
+    <button type="button" class="scroll-down" aria-label="Scroll down">
+      <img src="down.svg" alt="" aria-hidden="true">
+    </button>
+  </header>
+
+  <main>
+    <div class="container">
+      <!-- Basic Pack -->
+      <div class="tile">
+        <h2>Basic Pack</h2>
+        <p class="description">Praesent finibus tincidunt lectus vitae iaculis. In ac semper mi. Ut id elit hendrerit,
+          pretium. </p>
+        <p class="price">$3</p>
+        <!-- Hidden PayPal form -->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" id="paypalFormBasic">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="U9HU89946HT8C">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="submit" class="btn" value="Buy Now">
+        </form>
+      </div>
+
+      <!-- Standard Pack -->
+      <div class="tile">
+        <h2>Standard Pack</h2>
+        <p class="description">Nulla ut porttitor mauris. Etiam aliquam eget ipsum et dignissim. Proin non sapien neque.
+          Cras. </p>
+        <p class="price">$5</p>
+        <!-- Hidden PayPal form for Standard Plan -->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" id="paypalFormStandard">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="C4QANVKEGKM5C">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="submit" class="btn" value="Buy Now">
+        </form>
+      </div>
+
+      <!-- Premium Pack -->
+      <div class="tile">
+        <h2>Premium Pack</h2>
+        <p class="description">Pellentesque auctor lectus iaculis porttitor tincidunt. Mauris laoreet turpis est, at
+          feugiat augue bibendum a. </p>
+        <p class="price">$8</p>
+        <!-- Hidden PayPal form for Premium Plan -->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" id="paypalFormPremium">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="XCXF52VAHDHJQ">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="submit" class="btn" value="Buy Now">
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Premium Services. All Rights Reserved.
+  </footer>
+  <script src="scrollDown.js"></script> 
+</body>
+
+</html>
