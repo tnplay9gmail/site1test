@@ -31,7 +31,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%) translateY(-50%);
   z-index: 1;
   text-align: center;
   color: #fff;
@@ -125,7 +125,6 @@ main {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   width: 100%;
   max-width: 350px;
-  aspect-ratio: 1;
   /* Forces a 1:1 square ratio */
   display: flex;
   flex-direction: column;
